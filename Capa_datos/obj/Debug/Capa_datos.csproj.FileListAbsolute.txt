@@ -1,0 +1,9 @@
+C:\Users\moise\source\repos\Sistema_credito\Capa_datos\bin\Debug\Capa_datos.dll
+C:\Users\moise\source\repos\Sistema_credito\Capa_datos\bin\Debug\Capa_datos.pdb
+C:\Users\moise\source\repos\Sistema_credito\Capa_datos\bin\Debug\Capa_entidad.dll
+C:\Users\moise\source\repos\Sistema_credito\Capa_datos\bin\Debug\Capa_entidad.pdb
+C:\Users\moise\source\repos\Sistema_credito\Capa_datos\obj\Debug\Capa_datos.csproj.AssemblyReference.cache
+C:\Users\moise\source\repos\Sistema_credito\Capa_datos\obj\Debug\Capa_datos.csproj.CoreCompileInputs.cache
+C:\Users\moise\source\repos\Sistema_credito\Capa_datos\obj\Debug\Capa_datos.csproj.Up2Date
+C:\Users\moise\source\repos\Sistema_credito\Capa_datos\obj\Debug\Capa_datos.dll
+C:\Users\moise\source\repos\Sistema_credito\Capa_datos\obj\Debug\Capa_datos.pdb
