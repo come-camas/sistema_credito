@@ -61,6 +61,7 @@ namespace Capa_presentacion
             else
             {
                 MessageBox.Show("No se ha encontrado el usuario","MENSAJE",MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
+             
             }
 
 

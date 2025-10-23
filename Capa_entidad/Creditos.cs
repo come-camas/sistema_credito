@@ -20,7 +20,6 @@ namespace Capa_entidad
         public string estado { get; set; }
         public string  observaciones { get; set; }
         public Usuarios creado_por { get; set; }
-        public DateTime fecha_creacion { get; set; }
 
     }
 }

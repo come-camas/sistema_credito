@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\moise\\source\\repos\\Sistema_credito\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|c:\\users\\moise\\source\\repos\\sistema_credito\\capa_presentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|solutionrelative:capa_presentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|c:\\users\\moise\\source\\repos\\sistema_credito\\capa_presentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|solutionrelative:capa_presentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|c:\\users\\moise\\source\\repos\\sistema_credito\\capa_presentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|c:\\users\\moise\\source\\repos\\sistema_credito\\capa_presentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|solutionrelative:capa_presentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|c:\\users\\moise\\source\\repos\\sistema_credito\\capa_presentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|solutionrelative:capa_presentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E8C0E6-F955-4DB7-B8B4-0479CA13093A}|Capa_datos\\Capa_datos.csproj|c:\\users\\moise\\source\\repos\\sistema_credito\\capa_datos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E8C0E6-F955-4DB7-B8B4-0479CA13093A}|Capa_datos\\Capa_datos.csproj|solutionrelative:capa_datos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|C:\\Users\\moise\\source\\repos\\Sistema_credito\\capa_presentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|solutionrelative:capa_presentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|c:\\users\\moise\\source\\repos\\sistema_credito\\capa_presentacion\\inicio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|solutionrelative:capa_presentacion\\inicio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4E8C0E6-F955-4DB7-B8B4-0479CA13093A}|Capa_datos\\Capa_datos.csproj|c:\\users\\moise\\source\\repos\\sistema_credito\\capa_datos\\cd_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E8C0E6-F955-4DB7-B8B4-0479CA13093A}|Capa_datos\\Capa_datos.csproj|solutionrelative:capa_datos\\cd_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|C:\\Users\\moise\\source\\repos\\Sistema_credito\\capa_presentacion\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|solutionrelative:capa_presentacion\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{1E75190E-A950-4AAE-BB51-95F2A1F5ED3E}|Capa_negocio\\Capa_negocio.csproj|c:\\users\\moise\\source\\repos\\sistema_credito\\capa_negocio\\cn_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E75190E-A950-4AAE-BB51-95F2A1F5ED3E}|Capa_negocio\\Capa_negocio.csproj|solutionrelative:capa_negocio\\cn_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 501,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -79,19 +91,83 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Inicio.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\moise\\source\\repos\\Sistema_credito\\Capa_presentacion\\Inicio.Designer.cs",
-              "RelativeDocumentMoniker": "Capa_presentacion\\Inicio.Designer.cs",
-              "ToolTip": "C:\\Users\\moise\\source\\repos\\Sistema_credito\\Capa_presentacion\\Inicio.Designer.cs",
-              "RelativeToolTip": "Capa_presentacion\\Inicio.Designer.cs",
-              "ViewState": "AgIAACgBAAAAAAAAAAAowCwBAABFAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\moise\\source\\repos\\Sistema_credito\\Capa_presentacion\\Program.cs",
+              "RelativeDocumentMoniker": "Capa_presentacion\\Program.cs",
+              "ToolTip": "C:\\Users\\moise\\source\\repos\\Sistema_credito\\Capa_presentacion\\Program.cs",
+              "RelativeToolTip": "Capa_presentacion\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T14:13:00.928Z",
+              "WhenOpened": "2025-10-23T00:08:07.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\moise\\source\\repos\\Sistema_credito\\Capa_presentacion\\Login.cs",
+              "RelativeDocumentMoniker": "Capa_presentacion\\Login.cs",
+              "ToolTip": "C:\\Users\\moise\\source\\repos\\Sistema_credito\\Capa_presentacion\\Login.cs*",
+              "RelativeToolTip": "Capa_presentacion\\Login.cs*",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwD8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T00:06:58.127Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\moise\\source\\repos\\Sistema_credito\\Capa_presentacion\\Login.cs",
+              "RelativeDocumentMoniker": "Capa_presentacion\\Login.cs",
+              "ToolTip": "C:\\Users\\moise\\source\\repos\\Sistema_credito\\Capa_presentacion\\Login.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "Capa_presentacion\\Login.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T00:06:53.097Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CN_Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\moise\\source\\repos\\Sistema_credito\\Capa_negocio\\CN_Usuario.cs",
+              "RelativeDocumentMoniker": "Capa_negocio\\CN_Usuario.cs",
+              "ToolTip": "C:\\Users\\moise\\source\\repos\\Sistema_credito\\Capa_negocio\\CN_Usuario.cs",
+              "RelativeToolTip": "Capa_negocio\\CN_Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T00:05:34.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CD_usuario.cs",
+              "DocumentMoniker": "C:\\Users\\moise\\source\\repos\\Sistema_credito\\Capa_datos\\CD_usuario.cs",
+              "RelativeDocumentMoniker": "Capa_datos\\CD_usuario.cs",
+              "ToolTip": "C:\\Users\\moise\\source\\repos\\Sistema_credito\\Capa_datos\\CD_usuario.cs",
+              "RelativeToolTip": "Capa_datos\\CD_usuario.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowCwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T00:04:56.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\moise\\source\\repos\\Sistema_credito\\Capa_datos\\Conexion.cs",
+              "RelativeDocumentMoniker": "Capa_datos\\Conexion.cs",
+              "ToolTip": "C:\\Users\\moise\\source\\repos\\Sistema_credito\\Capa_datos\\Conexion.cs",
+              "RelativeToolTip": "Capa_datos\\Conexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T00:04:52.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Inicio.cs",
               "DocumentMoniker": "C:\\Users\\moise\\source\\repos\\Sistema_credito\\Capa_presentacion\\Inicio.cs",
               "RelativeDocumentMoniker": "Capa_presentacion\\Inicio.cs",
@@ -100,31 +176,6 @@
               "ViewState": "AgIAADsAAAAAAAAAAAAYwDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-14T13:28:52.016Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Inicio.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\moise\\source\\repos\\Sistema_credito\\Capa_presentacion\\Inicio.cs",
-              "RelativeDocumentMoniker": "Capa_presentacion\\Inicio.cs",
-              "ToolTip": "C:\\Users\\moise\\source\\repos\\Sistema_credito\\Capa_presentacion\\Inicio.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Capa_presentacion\\Inicio.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T01:32:53.694Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\moise\\source\\repos\\Sistema_credito\\Capa_presentacion\\App.config",
-              "RelativeDocumentMoniker": "Capa_presentacion\\App.config",
-              "ToolTip": "C:\\Users\\moise\\source\\repos\\Sistema_credito\\Capa_presentacion\\App.config",
-              "RelativeToolTip": "Capa_presentacion\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-09-12T04:53:31.119Z",
               "EditorCaption": ""
             }
           ]
