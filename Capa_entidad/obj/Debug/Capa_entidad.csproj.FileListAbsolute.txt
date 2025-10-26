@@ -4,3 +4,12 @@ C:\Users\moise\source\repos\Sistema_credito\Capa_entidad\obj\Debug\Capa_entidad.
 C:\Users\moise\source\repos\Sistema_credito\Capa_entidad\obj\Debug\Capa_entidad.csproj.CoreCompileInputs.cache
 C:\Users\moise\source\repos\Sistema_credito\Capa_entidad\obj\Debug\Capa_entidad.dll
 C:\Users\moise\source\repos\Sistema_credito\Capa_entidad\obj\Debug\Capa_entidad.pdb
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_entidad\bin\Debug\Capa_entidad.dll
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_entidad\bin\Debug\Capa_entidad.pdb
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_entidad\obj\Debug\Capa_entidad.csproj.AssemblyReference.cache
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_entidad\obj\Debug\Capa_entidad.csproj.CoreCompileInputs.cache
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_entidad\obj\Debug\Capa_entidad.dll
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_entidad\obj\Debug\Capa_entidad.pdb
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_entidad\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_entidad\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_entidad\obj\Debug\Capa_ent.FD4A38A5.Up2Date

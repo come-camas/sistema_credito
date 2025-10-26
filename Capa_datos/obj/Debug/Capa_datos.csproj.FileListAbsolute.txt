@@ -7,3 +7,14 @@ C:\Users\moise\source\repos\Sistema_credito\Capa_datos\obj\Debug\Capa_datos.cspr
 C:\Users\moise\source\repos\Sistema_credito\Capa_datos\obj\Debug\Capa_datos.csproj.Up2Date
 C:\Users\moise\source\repos\Sistema_credito\Capa_datos\obj\Debug\Capa_datos.dll
 C:\Users\moise\source\repos\Sistema_credito\Capa_datos\obj\Debug\Capa_datos.pdb
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_datos\bin\Debug\Capa_datos.dll
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_datos\bin\Debug\Capa_datos.pdb
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_datos\bin\Debug\Capa_entidad.dll
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_datos\bin\Debug\Capa_entidad.pdb
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_datos\obj\Debug\Capa_datos.csproj.AssemblyReference.cache
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_datos\obj\Debug\Capa_datos.csproj.CoreCompileInputs.cache
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_datos\obj\Debug\Capa_datos.csproj.Up2Date
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_datos\obj\Debug\Capa_datos.dll
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_datos\obj\Debug\Capa_datos.pdb
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_datos\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_datos\bin\Debug\System.Configuration.ConfigurationManager.xml

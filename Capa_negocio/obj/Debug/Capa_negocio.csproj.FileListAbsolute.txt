@@ -9,3 +9,16 @@ C:\Users\moise\source\repos\Sistema_credito\Capa_negocio\obj\Debug\Capa_negocio.
 C:\Users\moise\source\repos\Sistema_credito\Capa_negocio\obj\Debug\Capa_neg.E8DC8671.Up2Date
 C:\Users\moise\source\repos\Sistema_credito\Capa_negocio\obj\Debug\Capa_negocio.dll
 C:\Users\moise\source\repos\Sistema_credito\Capa_negocio\obj\Debug\Capa_negocio.pdb
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_negocio\bin\Debug\Capa_negocio.dll
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_negocio\bin\Debug\Capa_negocio.pdb
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_negocio\bin\Debug\Capa_datos.dll
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_negocio\bin\Debug\Capa_entidad.dll
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_negocio\bin\Debug\Capa_datos.pdb
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_negocio\bin\Debug\Capa_entidad.pdb
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_negocio\obj\Debug\Capa_negocio.csproj.AssemblyReference.cache
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_negocio\obj\Debug\Capa_negocio.csproj.CoreCompileInputs.cache
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_negocio\obj\Debug\Capa_neg.E8DC8671.Up2Date
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_negocio\obj\Debug\Capa_negocio.dll
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_negocio\obj\Debug\Capa_negocio.pdb
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_negocio\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Camila Carolina\Desktop\agrosan\Capa_negocio\bin\Debug\System.Configuration.ConfigurationManager.xml

@@ -19,12 +19,22 @@ namespace Capa_presentacion
         private static IconMenuItem MenuActivo = null;
         private static Form FormularioActivo = null;
         private static Usuarios usuarioactual;
+        private readonly int _idUsuario;
+        private readonly string _nombreUsuario;
 
-        public Inicio(Usuarios usuario_usar = null)
+        public int UsuarioId => _idUsuario;
+        public string UsuarioNombre => _nombreUsuario;
+
+        public Inicio(int idUsuario, string nombreUsuario)
         {
             InitializeComponent();
+            _idUsuario = idUsuario;
+            _nombreUsuario = nombreUsuario;
+            verUsuario.Text = $"Usuario: {_nombreUsuario}  (ID: {_idUsuario})";
         }
 
+
+        /*
         private void abrirform(IconMenuItem menu, Form formulario)
         {
             if (MenuActivo != null)
@@ -48,11 +58,28 @@ namespace Capa_presentacion
             formulario.Dock = DockStyle.Fill;
             
 
-            contenedor.Controls.Add(formulario);
+            principal.Controls.Add(formulario);
             formulario.Show();
 
         }
+        */
+        private void abrirform(Form formulario)
+        {
+            if (FormularioActivo != null)
+            {
+                FormularioActivo.Close();
+            }
 
+            FormularioActivo = formulario;
+            formulario.TopLevel = false;
+            formulario.FormBorderStyle = FormBorderStyle.None;
+            formulario.Dock = DockStyle.Fill;
+
+            principal.Controls.Add(formulario);
+            formulario.Show();
+        }
+
+        /*
         private void sliderbar_Tick_1(object sender, EventArgs e)
         {
             if (siderbar == true)
@@ -71,7 +98,7 @@ namespace Capa_presentacion
 
                 menu.Width += 10;
 
-                if (menu.Width >= 170)
+                if (menu.Width >= 230)
                 {
                     siderbar = true;
                     sliderbar.Stop();
@@ -82,10 +109,53 @@ namespace Capa_presentacion
 
             }
         }
+        */
 
         private void barra_Click(object sender, EventArgs e)
         {
             sliderbar.Start();
+        }
+
+        private void submenu_venta_registrar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            panelc.Visible = !panelc.Visible;
+
+        }
+
+        private void panelc_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            panelc.Visible = false;
+            abrirform(new Registar_clientes(this.UsuarioId));
+        }
+
+        private void btrees_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

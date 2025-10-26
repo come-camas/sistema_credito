@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Capa_negocio;
 using Capa_entidad;
+using System.Security.Cryptography;
+
 
 namespace Capa_presentacion
 {
@@ -46,27 +48,48 @@ namespace Capa_presentacion
 
         private void login_buttom_Click(object sender, EventArgs e)
         {
+            string usuario = textBox_usuario_login.Text.Trim();
+            string pass = textBox_contraseña_login.Text;
 
-            Usuarios objusuario = new CN_Usuario().listar().Where(p => p.nombre == textBox_usuario_login.Text && p.hash_password == textBox_contraseña_login.Text).FirstOrDefault();
 
-            if (objusuario != null)  {
+            string hashIngresado = Sha256Hex(pass);
 
-                Inicio ini = new Inicio();
+        
+            Usuarios objusuario = new CN_Usuario()
+                .listar()
+                .Where(p => p.nombre == usuario &&
+                            string.Equals(p.hash_password, hashIngresado, StringComparison.OrdinalIgnoreCase))
+                .FirstOrDefault();
+
+            if (objusuario != null)
+            { 
+                Inicio ini = new Inicio(objusuario.id_usuario, objusuario.nombre);
                 ini.Show();
                 this.Hide();
-
                 ini.FormClosing += form_close;
-
             }
             else
             {
-                MessageBox.Show("No se ha encontrado el usuario","MENSAJE",MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
+                MessageBox.Show("Usuario o contraseña incorrectos", "MENSAJE",
+                    MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
-
-
-
-
         }
+
+
+
+
+        private static string Sha256Hex(string texto)
+        {
+            byte[] bytes = Encoding.Unicode.GetBytes(texto);
+            using (var sha = SHA256.Create())
+            {
+                var hash = sha.ComputeHash(bytes);
+                var sb = new StringBuilder(hash.Length * 2);
+                foreach (var b in hash) sb.Append(b.ToString("X2"));
+                return sb.ToString();
+            }
+        }
+
 
         private void form_close(object sender, FormClosingEventArgs e) {
             textBox_contraseña_login.Clear();
