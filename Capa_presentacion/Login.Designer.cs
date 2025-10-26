@@ -121,7 +121,6 @@
             this.textBox_contraseña_login.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_contraseña_login.Location = new System.Drawing.Point(71, 398);
             this.textBox_contraseña_login.Name = "textBox_contraseña_login";
-            this.textBox_contraseña_login.PasswordChar = '*';
             this.textBox_contraseña_login.Size = new System.Drawing.Size(298, 37);
             this.textBox_contraseña_login.TabIndex = 10;
             this.textBox_contraseña_login.UseSystemPasswordChar = true;

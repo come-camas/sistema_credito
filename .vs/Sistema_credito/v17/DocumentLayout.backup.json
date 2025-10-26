@@ -1,9 +1,5 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "WorkspaceRootPath": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\",
-  "Documents": [],
-=======
   "WorkspaceRootPath": "C:\\Users\\moise\\source\\repos\\Sistema_credito\\",
   "Documents": [
     {
@@ -35,20 +31,14 @@
       "RelativeMoniker": "D:0:0:{1E75190E-A950-4AAE-BB51-95F2A1F5ED3E}|Capa_negocio\\Capa_negocio.csproj|solutionrelative:capa_negocio\\cn_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
->>>>>>> e4f580f763bde06486d9053fc86e2e55ba453006
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-<<<<<<< HEAD
-          "DockedWidth": 200,
-          "SelectedChildIndex": -1,
-=======
           "DockedHeight": 501,
           "SelectedChildIndex": 13,
->>>>>>> e4f580f763bde06486d9053fc86e2e55ba453006
           "Children": [
             {
               "$type": "Bookmark",
@@ -97,8 +87,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-<<<<<<< HEAD
-=======
             },
             {
               "$type": "Document",
@@ -119,8 +107,8 @@
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\moise\\source\\repos\\Sistema_credito\\Capa_presentacion\\Login.cs",
               "RelativeDocumentMoniker": "Capa_presentacion\\Login.cs",
-              "ToolTip": "C:\\Users\\moise\\source\\repos\\Sistema_credito\\Capa_presentacion\\Login.cs",
-              "RelativeToolTip": "Capa_presentacion\\Login.cs",
+              "ToolTip": "C:\\Users\\moise\\source\\repos\\Sistema_credito\\Capa_presentacion\\Login.cs*",
+              "RelativeToolTip": "Capa_presentacion\\Login.cs*",
               "ViewState": "AgIAACsAAAAAAAAAAAAkwD8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-23T00:06:58.127Z",
@@ -132,8 +120,8 @@
               "Title": "Login.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\moise\\source\\repos\\Sistema_credito\\Capa_presentacion\\Login.cs",
               "RelativeDocumentMoniker": "Capa_presentacion\\Login.cs",
-              "ToolTip": "C:\\Users\\moise\\source\\repos\\Sistema_credito\\Capa_presentacion\\Login.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Capa_presentacion\\Login.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\moise\\source\\repos\\Sistema_credito\\Capa_presentacion\\Login.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "Capa_presentacion\\Login.cs [Dise\u00F1o]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-23T00:06:53.097Z",
               "EditorCaption": " [Dise\u00F1o]"
@@ -189,12 +177,11 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-14T13:28:52.016Z",
               "EditorCaption": ""
->>>>>>> e4f580f763bde06486d9053fc86e2e55ba453006
             }
           ]
         },
         {
-          "DockedWidth": 200,
+          "DockedHeight": 24,
           "SelectedChildIndex": -1,
           "Children": [
             {
