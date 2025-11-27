@@ -114,6 +114,7 @@
             this.textBox_usuario_login.Name = "textBox_usuario_login";
             this.textBox_usuario_login.Size = new System.Drawing.Size(355, 37);
             this.textBox_usuario_login.TabIndex = 8;
+            this.textBox_usuario_login.TextChanged += new System.EventHandler(this.textBox_usuario_login_TextChanged);
             // 
             // textBox_contraseña_login
             // 

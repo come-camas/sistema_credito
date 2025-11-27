@@ -70,13 +70,12 @@ namespace Capa_presentacion
             }
             else
             {
-<<<<<<< HEAD
+
                 MessageBox.Show("Usuario o contraseña incorrectos", "MENSAJE",
                     MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-=======
                 MessageBox.Show("No se ha encontrado el usuario","MENSAJE",MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
              
->>>>>>> e4f580f763bde06486d9053fc86e2e55ba453006
+
             }
         }
 
@@ -100,6 +99,11 @@ namespace Capa_presentacion
             textBox_contraseña_login.Clear();
             textBox_usuario_login.Clear();
             this.Show();
+        }
+
+        private void textBox_usuario_login_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

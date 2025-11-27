@@ -62,6 +62,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ver_cuotas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ver_cuotas.Designer.cs">
+      <DependentUpon>ver_cuotas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Inicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,6 +88,15 @@
     <Compile Include="Registar-clientes.Designer.cs">
       <DependentUpon>Registar-clientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Registrar creditos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registrar creditos.Designer.cs">
+      <DependentUpon>Registrar creditos.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ver_cuotas.resx">
+      <DependentUpon>ver_cuotas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
     </EmbeddedResource>
@@ -101,6 +116,9 @@
     <EmbeddedResource Include="Registar-clientes.resx">
       <DependentUpon>Registar-clientes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Registrar creditos.resx">
+      <DependentUpon>Registrar creditos.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -116,6 +134,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Capa_datos\Capa_datos.csproj">
+      <Project>{d4e8c0e6-f955-4db7-b8b4-0479ca13093a}</Project>
+      <Name>Capa_datos</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Capa_entidad\Capa_entidad.csproj">
       <Project>{e28bd0d5-0b0c-4bb1-94ca-40a4c5124e38}</Project>
       <Name>Capa_entidad</Name>
@@ -181,6 +203,54 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\cliente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recargar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nueva-cuenta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lupa %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lupa-de-busqueda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lupa %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardar-el-archivo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\engranaje.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\simbolo-de-doble-flecha-derecha-de-avance-rapido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colateral %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dia-de-paga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dia-de-paga %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dinero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dinero %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dinero %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dinero %283%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -8,14 +8,15 @@ namespace Capa_entidad
 {
     public class Cuotas
     {
-        public int id_cuota { get; set; }
-        public Creditos id_credito { get; set; }
-        public int nro_cuota { get; set; }
-        public DateTime fecha_vencimiento{ get; set; }
-        public decimal capital { get; set; }
-        public decimal interes { get; set; }
-        public decimal pagado_capital { get; set; }
-        public decimal pagado_interes { get; set; }
+        public int id_credito { get; set; }
+        public int NroCuota { get; set; }
+        public DateTime FechaVencimiento { get; set; }
+        public decimal Capital { get; set; }
+        public decimal Interes { get; set; }
+        public decimal TotalCuota { get; set; }  
+        public decimal PagadoCapital { get; set; }
+        public decimal PagadoInteres { get; set; }
+        public decimal SaldoPendiente { get; set; }
         public string estado { get; set; }
     }
 }

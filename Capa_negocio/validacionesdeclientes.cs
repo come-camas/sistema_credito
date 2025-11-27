@@ -15,9 +15,30 @@ namespace Capa_negocio
     {
         private readonly CD_Cliente _datos = new CD_Cliente();
 
-        public void InsertarCliente(Clientes c)
+        
+        public int BuscarIdClientePorCedula(string cedula)
         {
+            if (string.IsNullOrWhiteSpace(cedula))
+                throw new ApplicationException("La cédula no puede estar vacía.");
 
+            try
+            {
+               
+                int idCliente = _datos.BuscarIdClientePorCedula(cedula);
+
+                return idCliente;
+            }
+            catch (ApplicationException ex)
+            {
+                throw new ApplicationException("Error al buscar el ID del cliente: " + ex.Message);
+            }
+        }
+
+
+
+
+        public int InsertarCliente(Clientes c)
+        {
             if (string.IsNullOrWhiteSpace(c.nombre))
                 throw new ApplicationException("El nombre es obligatorio.");
 
@@ -27,39 +48,31 @@ namespace Capa_negocio
             if (string.IsNullOrWhiteSpace(c.identificacion))
                 throw new ApplicationException("La cédula es obligatoria.");
 
-
-           
             if (c.identificacion != null && c.identificacion.Length > 17)
                 throw new ApplicationException("La identificación supera los 40 caracteres.");
- 
- 
+
             if (!string.IsNullOrWhiteSpace(c.telefono))
             {
-            
                 if (!Regex.IsMatch(c.telefono, @"^[0-9\+\-\s\(\)]{6,40}$"))
                     throw new ApplicationException("El teléfono contiene caracteres no permitidos.");
             }
 
             if (!string.IsNullOrWhiteSpace(c.identificacion))
             {
-
-               
                 if (_datos.CedulaExiste(c.identificacion))
                     throw new ApplicationException("La identificación ya está registrada.");
             }
 
-           
             if (c.creado_por == null || c.creado_por <= 0)
                 throw new ApplicationException("No se pudo determinar el usuario que crea el registro.");
 
-           
             try
             {
-                _datos.InsertarCliente(c);
+                // Llamar al método InsertarCliente en la Capa de Datos y obtener el ID del cliente insertado
+                return _datos.InsertarCliente(c);  // Devuelve el ID del cliente insertado
             }
             catch (SqlException ex)
             {
-               
                 throw new ApplicationException(ex.Message, ex);
             }
         }

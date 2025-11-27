@@ -24,59 +24,37 @@ namespace Capa_presentacion
 
         public int UsuarioId => _idUsuario;
         public string UsuarioNombre => _nombreUsuario;
-
+        private int borderSize = 2;
         public Inicio(int idUsuario, string nombreUsuario)
         {
             InitializeComponent();
             _idUsuario = idUsuario;
             _nombreUsuario = nombreUsuario;
-            verUsuario.Text = $"Usuario: {_nombreUsuario}  (ID: {_idUsuario})";
+            verUsuario.Text = $"Usuario: {_nombreUsuario} " ;
+
+            this.Padding = new Padding(borderSize);
+            this.BackColor = Color.FromArgb(0, 120, 215);
         }
 
 
-        /*
-        private void abrirform(IconMenuItem menu, Form formulario)
+      
+        public void abrirform(Form formulario)
         {
-            if (MenuActivo != null)
-            {
-                MenuActivo.BackColor = Color.Ivory;
 
-            }
+            if (this.principal.Controls.Count > 0)
+                this.principal.Controls.Clear(); 
 
-            menu.BackColor = Color.Silver;
-            MenuActivo = menu;
-
-            if (FormularioActivo != null)
-            {
-
-                FormularioActivo.Close();
-            }
-
-            FormularioActivo = formulario;
-            formulario.TopLevel = false;
-            formulario.FormBorderStyle = FormBorderStyle.None;
-            formulario.Dock = DockStyle.Fill;
             
+            formulario.TopLevel = false;  
+            formulario.FormBorderStyle = FormBorderStyle.None; 
+            formulario.Dock = DockStyle.Fill; 
 
-            principal.Controls.Add(formulario);
+           
+            this.principal.Controls.Add(formulario);
+
+            // Mostrar el formulario hijo
             formulario.Show();
 
-        }
-        */
-        private void abrirform(Form formulario)
-        {
-            if (FormularioActivo != null)
-            {
-                FormularioActivo.Close();
-            }
-
-            FormularioActivo = formulario;
-            formulario.TopLevel = false;
-            formulario.FormBorderStyle = FormBorderStyle.None;
-            formulario.Dock = DockStyle.Fill;
-
-            principal.Controls.Add(formulario);
-            formulario.Show();
         }
 
         /*
@@ -123,7 +101,6 @@ namespace Capa_presentacion
 
         private void button2_Click(object sender, EventArgs e)
         {
-
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -138,7 +115,8 @@ namespace Capa_presentacion
 
         private void button1_Click(object sender, EventArgs e)
         {
-            panelc.Visible = !panelc.Visible;
+
+           
 
         }
 
@@ -149,13 +127,58 @@ namespace Capa_presentacion
 
         private void button7_Click(object sender, EventArgs e)
         {
-            panelc.Visible = false;
-            abrirform(new Registar_clientes(this.UsuarioId));
+            
         }
 
         private void btrees_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void principal_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btcuotas_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btcliente_Click(object sender, EventArgs e)
+        {
+            abrirform(new Registar_clientes(this.UsuarioId));
+        }
+
+        private void btcreditos_Click(object sender, EventArgs e)
+        {
+            abrirform(new Registrar_creditos(this.UsuarioId));  
+
+        }
+
+        private void verUsuario_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void principal_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btpagos_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btcuotas_Click_1(object sender, EventArgs e)
+        {
+            abrirform(new ver_cuotas(this.UsuarioId));
         }
     }
 }

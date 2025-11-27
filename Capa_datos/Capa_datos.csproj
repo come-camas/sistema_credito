@@ -46,7 +46,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conexion.cs" />
-    <Compile Include="procedimientos.cs" />
+    <Compile Include="procedimientos-clientes.cs" />
+    <Compile Include="procedimientos-creditos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CD_usuario.cs" />
   </ItemGroup>
