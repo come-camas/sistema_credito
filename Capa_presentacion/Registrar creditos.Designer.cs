@@ -42,17 +42,17 @@
             this.datetimeinicio = new System.Windows.Forms.DateTimePicker();
             this.txtplazos = new System.Windows.Forms.TextBox();
             this.gb1 = new System.Windows.Forms.GroupBox();
+            this.btBuscar = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.txtcedula3 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.txtinteres = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.generarcuotas = new System.Windows.Forms.Button();
-            this.btBuscar = new System.Windows.Forms.Button();
             this.guardar = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.txtinteres = new System.Windows.Forms.ComboBox();
             this.gb1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -231,6 +231,21 @@
             this.gb1.TabStop = false;
             this.gb1.Enter += new System.EventHandler(this.gb1_Enter);
             // 
+            // btBuscar
+            // 
+            this.btBuscar.BackColor = System.Drawing.Color.White;
+            this.btBuscar.BackgroundImage = global::Capa_presentacion.Properties.Resources.lupa__2_;
+            this.btBuscar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btBuscar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btBuscar.ForeColor = System.Drawing.Color.Black;
+            this.btBuscar.Location = new System.Drawing.Point(576, 122);
+            this.btBuscar.Name = "btBuscar";
+            this.btBuscar.Size = new System.Drawing.Size(74, 52);
+            this.btBuscar.TabIndex = 24;
+            this.btBuscar.UseVisualStyleBackColor = false;
+            this.btBuscar.Click += new System.EventHandler(this.btBuscar_Click);
+            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -262,17 +277,6 @@
             this.label7.Size = new System.Drawing.Size(100, 33);
             this.label7.TabIndex = 22;
             this.label7.Text = "Cédula:";
-            // 
-            // txtinteres
-            // 
-            this.txtinteres.BackColor = System.Drawing.Color.White;
-            this.txtinteres.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtinteres.Font = new System.Drawing.Font("Arial Narrow", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtinteres.ForeColor = System.Drawing.Color.Black;
-            this.txtinteres.Location = new System.Drawing.Point(190, 822);
-            this.txtinteres.Name = "txtinteres";
-            this.txtinteres.Size = new System.Drawing.Size(205, 40);
-            this.txtinteres.TabIndex = 23;
             // 
             // label5
             // 
@@ -330,21 +334,6 @@
             this.generarcuotas.Visible = false;
             this.generarcuotas.Click += new System.EventHandler(this.modificar_Click);
             // 
-            // btBuscar
-            // 
-            this.btBuscar.BackColor = System.Drawing.Color.White;
-            this.btBuscar.BackgroundImage = global::Capa_presentacion.Properties.Resources.lupa__2_;
-            this.btBuscar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btBuscar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btBuscar.ForeColor = System.Drawing.Color.Black;
-            this.btBuscar.Location = new System.Drawing.Point(576, 122);
-            this.btBuscar.Name = "btBuscar";
-            this.btBuscar.Size = new System.Drawing.Size(74, 52);
-            this.btBuscar.TabIndex = 24;
-            this.btBuscar.UseVisualStyleBackColor = false;
-            this.btBuscar.Click += new System.EventHandler(this.btBuscar_Click);
-            // 
             // guardar
             // 
             this.guardar.BackColor = System.Drawing.Color.White;
@@ -372,16 +361,29 @@
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
+            // txtinteres
+            // 
+            this.txtinteres.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtinteres.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.txtinteres.Font = new System.Drawing.Font("Arial Narrow", 14F, System.Drawing.FontStyle.Bold);
+            this.txtinteres.FormattingEnabled = true;
+            this.txtinteres.Items.AddRange(new object[] {
+            "4.00"});
+            this.txtinteres.Location = new System.Drawing.Point(190, 817);
+            this.txtinteres.Name = "txtinteres";
+            this.txtinteres.Size = new System.Drawing.Size(183, 41);
+            this.txtinteres.TabIndex = 27;
+            // 
             // Registrar_creditos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1915, 1050);
+            this.Controls.Add(this.txtinteres);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.generarcuotas);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.txtinteres);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.gb1);
             this.Controls.Add(this.txtplazos);
@@ -430,10 +432,10 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtcedula3;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox txtinteres;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button generarcuotas;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.ComboBox txtinteres;
     }
 }

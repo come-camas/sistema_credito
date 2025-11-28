@@ -45,3 +45,8 @@ C:\Users\Camila Carolina\Desktop\agrosan\Capa_presentacion\bin\Debug\System.Conf
 C:\Users\Camila Carolina\Desktop\agrosan\Capa_presentacion\obj\Debug\Capa_presentacion.Registar_clientes.resources
 C:\Users\Camila Carolina\Desktop\agrosan\Capa_presentacion\obj\Debug\Capa_presentacion.Registrar_creditos.resources
 C:\Users\Camila Carolina\Desktop\agrosan\Capa_presentacion\obj\Debug\Capa_presentacion.ver_cuotas.resources
+C:\Users\moise\Source\Repos\sistema_credito\Capa_presentacion\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\moise\Source\Repos\sistema_credito\Capa_presentacion\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\moise\Source\Repos\sistema_credito\Capa_presentacion\obj\Debug\Capa_presentacion.ver_cuotas.resources
+C:\Users\moise\Source\Repos\sistema_credito\Capa_presentacion\obj\Debug\Capa_presentacion.Registar_clientes.resources
+C:\Users\moise\Source\Repos\sistema_credito\Capa_presentacion\obj\Debug\Capa_presentacion.Registrar_creditos.resources

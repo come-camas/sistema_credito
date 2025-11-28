@@ -1,114 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\",
+  "WorkspaceRootPath": "C:\\Users\\moise\\source\\repos\\sistema_credito\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1E75190E-A950-4AAE-BB51-95F2A1F5ED3E}|Capa_negocio\\Capa_negocio.csproj|c:\\users\\camila carolina\\desktop\\agrosan\\capa_negocio\\validacionescreditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E75190E-A950-4AAE-BB51-95F2A1F5ED3E}|Capa_negocio\\Capa_negocio.csproj|solutionrelative:capa_negocio\\validacionescreditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4E8C0E6-F955-4DB7-B8B4-0479CA13093A}|Capa_datos\\Capa_datos.csproj|C:\\Users\\Camila Carolina\\Desktop\\agrosan\\capa_datos\\procedimientos-creditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4E8C0E6-F955-4DB7-B8B4-0479CA13093A}|Capa_datos\\Capa_datos.csproj|solutionrelative:capa_datos\\procedimientos-creditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|C:\\Users\\Camila Carolina\\Desktop\\agrosan\\capa_presentacion\\registrar creditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|solutionrelative:capa_presentacion\\registrar creditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|C:\\Users\\Camila Carolina\\Desktop\\agrosan\\capa_presentacion\\registrar creditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|c:\\users\\moise\\source\\repos\\sistema_credito\\capa_presentacion\\registrar creditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|solutionrelative:capa_presentacion\\registrar creditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|C:\\Users\\Camila Carolina\\Desktop\\agrosan\\capa_presentacion\\registar-clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|solutionrelative:capa_presentacion\\registar-clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|c:\\users\\moise\\source\\repos\\sistema_credito\\capa_presentacion\\registrar creditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|solutionrelative:capa_presentacion\\registrar creditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4E8C0E6-F955-4DB7-B8B4-0479CA13093A}|Capa_datos\\Capa_datos.csproj|C:\\Users\\Camila Carolina\\Desktop\\agrosan\\capa_datos\\procedimientos-clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4E8C0E6-F955-4DB7-B8B4-0479CA13093A}|Capa_datos\\Capa_datos.csproj|solutionrelative:capa_datos\\procedimientos-clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4E8C0E6-F955-4DB7-B8B4-0479CA13093A}|Capa_datos\\Capa_datos.csproj|C:\\Users\\moise\\source\\repos\\sistema_credito\\Capa_datos\\procedimientos-clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E8C0E6-F955-4DB7-B8B4-0479CA13093A}|Capa_datos\\Capa_datos.csproj|solutionrelative:Capa_datos\\procedimientos-clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|C:\\Users\\Camila Carolina\\Desktop\\agrosan\\capa_presentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|solutionrelative:capa_presentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|C:\\Users\\moise\\source\\repos\\sistema_credito\\Capa_presentacion\\Registar-clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|solutionrelative:Capa_presentacion\\Registar-clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|C:\\Users\\Camila Carolina\\Desktop\\agrosan\\capa_presentacion\\ver_cuotas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|solutionrelative:capa_presentacion\\ver_cuotas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|C:\\Users\\Camila Carolina\\Desktop\\agrosan\\capa_presentacion\\ver_cuotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|solutionrelative:capa_presentacion\\ver_cuotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|C:\\Users\\Camila Carolina\\Desktop\\agrosan\\capa_presentacion\\ver_cuotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|solutionrelative:capa_presentacion\\ver_cuotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E28BD0D5-0B0C-4BB1-94CA-40A4C5124E38}|Capa_entidad\\Capa_entidad.csproj|C:\\Users\\Camila Carolina\\Desktop\\agrosan\\capa_entidad\\creditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E28BD0D5-0B0C-4BB1-94CA-40A4C5124E38}|Capa_entidad\\Capa_entidad.csproj|solutionrelative:capa_entidad\\creditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|C:\\Users\\Camila Carolina\\Desktop\\agrosan\\capa_presentacion\\registar-clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|C:\\Users\\moise\\source\\repos\\sistema_credito\\capa_presentacion\\registar-clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|solutionrelative:capa_presentacion\\registar-clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|C:\\Users\\Camila Carolina\\Desktop\\agrosan\\capa_presentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|C:\\Users\\moise\\source\\repos\\sistema_credito\\capa_presentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|solutionrelative:capa_presentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E75190E-A950-4AAE-BB51-95F2A1F5ED3E}|Capa_negocio\\Capa_negocio.csproj|C:\\Users\\Camila Carolina\\Desktop\\agrosan\\capa_negocio\\validacionesdeclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E75190E-A950-4AAE-BB51-95F2A1F5ED3E}|Capa_negocio\\Capa_negocio.csproj|solutionrelative:capa_negocio\\validacionesdeclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4E8C0E6-F955-4DB7-B8B4-0479CA13093A}|Capa_datos\\Capa_datos.csproj|C:\\Users\\Camila Carolina\\Desktop\\agrosan\\capa_datos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4E8C0E6-F955-4DB7-B8B4-0479CA13093A}|Capa_datos\\Capa_datos.csproj|solutionrelative:capa_datos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4E8C0E6-F955-4DB7-B8B4-0479CA13093A}|Capa_datos\\Capa_datos.csproj|C:\\Users\\Camila Carolina\\Desktop\\agrosan\\capa_datos\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{D4E8C0E6-F955-4DB7-B8B4-0479CA13093A}|Capa_datos\\Capa_datos.csproj|solutionrelative:capa_datos\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4E8C0E6-F955-4DB7-B8B4-0479CA13093A}|Capa_datos\\Capa_datos.csproj|C:\\Users\\Camila Carolina\\Desktop\\agrosan\\capa_datos\\cd_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4E8C0E6-F955-4DB7-B8B4-0479CA13093A}|Capa_datos\\Capa_datos.csproj|solutionrelative:capa_datos\\cd_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|C:\\Users\\Camila Carolina\\Desktop\\agrosan\\capa_presentacion\\registrar creditos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|solutionrelative:capa_presentacion\\registrar creditos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E28BD0D5-0B0C-4BB1-94CA-40A4C5124E38}|Capa_entidad\\Capa_entidad.csproj|C:\\Users\\Camila Carolina\\Desktop\\agrosan\\capa_entidad\\cuotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E28BD0D5-0B0C-4BB1-94CA-40A4C5124E38}|Capa_entidad\\Capa_entidad.csproj|solutionrelative:capa_entidad\\cuotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E28BD0D5-0B0C-4BB1-94CA-40A4C5124E38}|Capa_entidad\\Capa_entidad.csproj|C:\\Users\\Camila Carolina\\Desktop\\agrosan\\capa_entidad\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E28BD0D5-0B0C-4BB1-94CA-40A4C5124E38}|Capa_entidad\\Capa_entidad.csproj|solutionrelative:capa_entidad\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E75190E-A950-4AAE-BB51-95F2A1F5ED3E}|Capa_negocio\\Capa_negocio.csproj|C:\\Users\\Camila Carolina\\Desktop\\agrosan\\capa_negocio\\cn_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E75190E-A950-4AAE-BB51-95F2A1F5ED3E}|Capa_negocio\\Capa_negocio.csproj|solutionrelative:capa_negocio\\cn_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|C:\\Users\\Camila Carolina\\Desktop\\agrosan\\capa_presentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|solutionrelative:capa_presentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|C:\\Users\\Camila Carolina\\Desktop\\agrosan\\capa_presentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|solutionrelative:capa_presentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|C:\\Users\\Camila Carolina\\Desktop\\agrosan\\capa_presentacion\\registar-clientes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|solutionrelative:capa_presentacion\\registar-clientes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|C:\\Users\\Camila Carolina\\Desktop\\agrosan\\capa_presentacion\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9871DF2A-7FFB-4F14-9430-453255B42388}|Capa_presentacion\\Capa_presentacion.csproj|solutionrelative:capa_presentacion\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E28BD0D5-0B0C-4BB1-94CA-40A4C5124E38}|Capa_entidad\\Capa_entidad.csproj|C:\\Users\\Camila Carolina\\Desktop\\agrosan\\capa_entidad\\pagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E28BD0D5-0B0C-4BB1-94CA-40A4C5124E38}|Capa_entidad\\Capa_entidad.csproj|solutionrelative:capa_entidad\\pagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E28BD0D5-0B0C-4BB1-94CA-40A4C5124E38}|Capa_entidad\\Capa_entidad.csproj|C:\\Users\\Camila Carolina\\Desktop\\agrosan\\capa_entidad\\parametros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E28BD0D5-0B0C-4BB1-94CA-40A4C5124E38}|Capa_entidad\\Capa_entidad.csproj|solutionrelative:capa_entidad\\parametros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -118,133 +34,86 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 25,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 5,
               "Title": "Inicio.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_presentacion\\Inicio.cs",
+              "DocumentMoniker": "C:\\Users\\moise\\source\\repos\\sistema_credito\\Capa_presentacion\\Inicio.cs",
               "RelativeDocumentMoniker": "Capa_presentacion\\Inicio.cs",
-              "ToolTip": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_presentacion\\Inicio.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\moise\\source\\repos\\sistema_credito\\Capa_presentacion\\Inicio.cs [Dise\u00F1o]",
               "RelativeToolTip": "Capa_presentacion\\Inicio.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T22:16:36.214Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Registar-clientes.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_presentacion\\Registar-clientes.cs",
-              "RelativeDocumentMoniker": "Capa_presentacion\\Registar-clientes.cs",
-              "ToolTip": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_presentacion\\Registar-clientes.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Capa_presentacion\\Registar-clientes.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T22:23:17.735Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Conexion.cs",
-              "DocumentMoniker": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_datos\\Conexion.cs",
-              "RelativeDocumentMoniker": "Capa_datos\\Conexion.cs",
-              "ToolTip": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_datos\\Conexion.cs",
-              "RelativeToolTip": "Capa_datos\\Conexion.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T23:02:08.61Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Registar-clientes.cs",
-              "DocumentMoniker": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_presentacion\\Registar-clientes.cs",
+              "Title": "Registar-clientes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\moise\\source\\repos\\sistema_credito\\Capa_presentacion\\Registar-clientes.cs",
               "RelativeDocumentMoniker": "Capa_presentacion\\Registar-clientes.cs",
-              "ToolTip": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_presentacion\\Registar-clientes.cs",
-              "RelativeToolTip": "Capa_presentacion\\Registar-clientes.cs",
-              "ViewState": "AQIAABYBAAAAAAAAAADwvyQBAABIAAAA",
+              "ToolTip": "C:\\Users\\moise\\source\\repos\\sistema_credito\\Capa_presentacion\\Registar-clientes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Capa_presentacion\\Registar-clientes.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T22:42:38.838Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Registrar creditos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_presentacion\\Registrar creditos.cs",
-              "RelativeDocumentMoniker": "Capa_presentacion\\Registrar creditos.cs",
-              "ToolTip": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_presentacion\\Registrar creditos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Capa_presentacion\\Registrar creditos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T00:55:30.012Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Inicio.cs",
-              "DocumentMoniker": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_presentacion\\Inicio.cs",
-              "RelativeDocumentMoniker": "Capa_presentacion\\Inicio.cs",
-              "ToolTip": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_presentacion\\Inicio.cs",
-              "RelativeToolTip": "Capa_presentacion\\Inicio.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAWwLgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T22:32:14.341Z",
-              "IsPinned": true
+              "WhenOpened": "2025-11-12T22:23:17.735Z",
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Registrar creditos.cs",
-              "DocumentMoniker": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_presentacion\\Registrar creditos.cs",
-              "RelativeDocumentMoniker": "Capa_presentacion\\Registrar creditos.cs",
-              "ToolTip": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_presentacion\\Registrar creditos.cs",
-              "RelativeToolTip": "Capa_presentacion\\Registrar creditos.cs",
-              "ViewState": "AQIAACEBAAAAAAAAAAAvwC8BAAAbAAAA",
+              "Title": "Registar-clientes.cs",
+              "DocumentMoniker": "C:\\Users\\moise\\source\\repos\\sistema_credito\\Capa_presentacion\\Registar-clientes.cs",
+              "RelativeDocumentMoniker": "Capa_presentacion\\Registar-clientes.cs",
+              "ToolTip": "C:\\Users\\moise\\source\\repos\\sistema_credito\\Capa_presentacion\\Registar-clientes.cs",
+              "RelativeToolTip": "Capa_presentacion\\Registar-clientes.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAmwIsAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T15:34:51.041Z",
-              "IsPinned": true
+              "WhenOpened": "2025-11-12T22:42:38.838Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "procedimientos-clientes.cs",
-              "DocumentMoniker": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_datos\\procedimientos-clientes.cs",
+              "DocumentMoniker": "C:\\Users\\moise\\source\\repos\\sistema_credito\\Capa_datos\\procedimientos-clientes.cs",
               "RelativeDocumentMoniker": "Capa_datos\\procedimientos-clientes.cs",
-              "ToolTip": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_datos\\procedimientos-clientes.cs",
+              "ToolTip": "C:\\Users\\moise\\source\\repos\\sistema_credito\\Capa_datos\\procedimientos-clientes.cs",
               "RelativeToolTip": "Capa_datos\\procedimientos-clientes.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAYwD8AAAANAAAA",
+              "ViewState": "AgIAADcAAAAAAAAAAAAQwBAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-19T23:46:50.17Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Creditos.cs",
-              "DocumentMoniker": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_entidad\\Creditos.cs",
-              "RelativeDocumentMoniker": "Capa_entidad\\Creditos.cs",
-              "ToolTip": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_entidad\\Creditos.cs",
-              "RelativeToolTip": "Capa_entidad\\Creditos.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowCkAAAAmAAAA",
+              "DocumentIndex": 0,
+              "Title": "Registrar creditos.cs",
+              "DocumentMoniker": "C:\\Users\\moise\\source\\repos\\sistema_credito\\Capa_presentacion\\Registrar creditos.cs",
+              "RelativeDocumentMoniker": "Capa_presentacion\\Registrar creditos.cs",
+              "ToolTip": "C:\\Users\\moise\\source\\repos\\sistema_credito\\Capa_presentacion\\Registrar creditos.cs",
+              "RelativeToolTip": "Capa_presentacion\\Registrar creditos.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAswJEAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T22:40:59.181Z",
-              "IsPinned": true
+              "WhenOpened": "2025-11-28T01:09:52.275Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ver_cuotas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_presentacion\\ver_cuotas.cs",
-              "RelativeDocumentMoniker": "Capa_presentacion\\ver_cuotas.cs",
-              "ToolTip": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_presentacion\\ver_cuotas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Capa_presentacion\\ver_cuotas.cs [Dise\u00F1o]",
+              "DocumentIndex": 1,
+              "Title": "Registrar creditos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\moise\\source\\repos\\sistema_credito\\Capa_presentacion\\Registrar creditos.cs",
+              "RelativeDocumentMoniker": "Capa_presentacion\\Registrar creditos.cs",
+              "ToolTip": "C:\\Users\\moise\\source\\repos\\sistema_credito\\Capa_presentacion\\Registrar creditos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Capa_presentacion\\Registrar creditos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T00:45:56.623Z",
-              "IsPinned": true
+              "WhenOpened": "2025-11-27T21:32:56.61Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Bookmark",
@@ -293,210 +162,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ver_cuotas.cs",
-              "DocumentMoniker": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_presentacion\\ver_cuotas.cs",
-              "RelativeDocumentMoniker": "Capa_presentacion\\ver_cuotas.cs",
-              "ToolTip": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_presentacion\\ver_cuotas.cs",
-              "RelativeToolTip": "Capa_presentacion\\ver_cuotas.cs",
-              "ViewState": "AQIAAFgAAAAAAAAAAADwv4QAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T00:47:09.948Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "validacionesdeclientes.cs",
-              "DocumentMoniker": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_negocio\\validacionesdeclientes.cs",
-              "RelativeDocumentMoniker": "Capa_negocio\\validacionesdeclientes.cs",
-              "ToolTip": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_negocio\\validacionesdeclientes.cs",
-              "RelativeToolTip": "Capa_negocio\\validacionesdeclientes.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAQwCQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T00:33:30.578Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "packages.config",
-              "DocumentMoniker": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_datos\\packages.config",
-              "RelativeDocumentMoniker": "Capa_datos\\packages.config",
-              "ToolTip": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_datos\\packages.config",
-              "RelativeToolTip": "Capa_datos\\packages.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-11-21T18:06:58.722Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "validacionescreditos.cs",
-              "DocumentMoniker": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_negocio\\validacionescreditos.cs",
-              "RelativeDocumentMoniker": "Capa_negocio\\validacionescreditos.cs",
-              "ToolTip": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_negocio\\validacionescreditos.cs",
-              "RelativeToolTip": "Capa_negocio\\validacionescreditos.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAqwEQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T22:27:43.318Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "procedimientos-creditos.cs",
-              "DocumentMoniker": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_datos\\procedimientos-creditos.cs",
-              "RelativeDocumentMoniker": "Capa_datos\\procedimientos-creditos.cs",
-              "ToolTip": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_datos\\procedimientos-creditos.cs",
-              "RelativeToolTip": "Capa_datos\\procedimientos-creditos.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAYwFAAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T22:32:47.663Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ver_cuotas.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_presentacion\\ver_cuotas.Designer.cs",
-              "RelativeDocumentMoniker": "Capa_presentacion\\ver_cuotas.Designer.cs",
-              "ToolTip": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_presentacion\\ver_cuotas.Designer.cs",
-              "RelativeToolTip": "Capa_presentacion\\ver_cuotas.Designer.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAqwFAAAACJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T02:25:35.67Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Registrar creditos.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_presentacion\\Registrar creditos.Designer.cs",
-              "RelativeDocumentMoniker": "Capa_presentacion\\Registrar creditos.Designer.cs",
-              "ToolTip": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_presentacion\\Registrar creditos.Designer.cs",
-              "RelativeToolTip": "Capa_presentacion\\Registrar creditos.Designer.cs",
-              "ViewState": "AQIAAAIBAAAAAAAAAAAYwBQBAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T23:54:43.822Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CD_usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_datos\\CD_usuario.cs",
-              "RelativeDocumentMoniker": "Capa_datos\\CD_usuario.cs",
-              "ToolTip": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_datos\\CD_usuario.cs",
-              "RelativeToolTip": "Capa_datos\\CD_usuario.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAIwBEAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T00:53:43.8Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Cuotas.cs",
-              "DocumentMoniker": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_entidad\\Cuotas.cs",
-              "RelativeDocumentMoniker": "Capa_entidad\\Cuotas.cs",
-              "ToolTip": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_entidad\\Cuotas.cs",
-              "RelativeToolTip": "Capa_entidad\\Cuotas.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAoAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T05:08:10.953Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Clientes.cs",
-              "DocumentMoniker": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_entidad\\Clientes.cs",
-              "RelativeDocumentMoniker": "Capa_entidad\\Clientes.cs",
-              "ToolTip": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_entidad\\Clientes.cs",
-              "RelativeToolTip": "Capa_entidad\\Clientes.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAuwAcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T00:54:08.763Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CN_Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_negocio\\CN_Usuario.cs",
-              "RelativeDocumentMoniker": "Capa_negocio\\CN_Usuario.cs",
-              "ToolTip": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_negocio\\CN_Usuario.cs",
-              "RelativeToolTip": "Capa_negocio\\CN_Usuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T23:43:18.356Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Login.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_presentacion\\Login.cs",
-              "RelativeDocumentMoniker": "Capa_presentacion\\Login.cs",
-              "ToolTip": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_presentacion\\Login.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Capa_presentacion\\Login.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T17:07:13.398Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_presentacion\\Login.cs",
-              "RelativeDocumentMoniker": "Capa_presentacion\\Login.cs",
-              "ToolTip": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_presentacion\\Login.cs",
-              "RelativeToolTip": "Capa_presentacion\\Login.cs",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAwwGIAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T22:58:15.723Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Registar-clientes.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_presentacion\\Registar-clientes.Designer.cs",
-              "RelativeDocumentMoniker": "Capa_presentacion\\Registar-clientes.Designer.cs",
-              "ToolTip": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_presentacion\\Registar-clientes.Designer.cs",
-              "RelativeToolTip": "Capa_presentacion\\Registar-clientes.Designer.cs",
-              "ViewState": "AQIAAHEBAAAAAAAAAAAAAHkBAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T02:41:36.764Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_presentacion\\App.config",
-              "RelativeDocumentMoniker": "Capa_presentacion\\App.config",
-              "ToolTip": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_presentacion\\App.config",
-              "RelativeToolTip": "Capa_presentacion\\App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-11-12T22:54:35.63Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Pagos.cs",
-              "DocumentMoniker": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_entidad\\Pagos.cs",
-              "RelativeDocumentMoniker": "Capa_entidad\\Pagos.cs",
-              "ToolTip": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_entidad\\Pagos.cs",
-              "RelativeToolTip": "Capa_entidad\\Pagos.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T05:18:18.649Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Parametros.cs",
-              "DocumentMoniker": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_entidad\\Parametros.cs",
-              "RelativeDocumentMoniker": "Capa_entidad\\Parametros.cs",
-              "ToolTip": "C:\\Users\\Camila Carolina\\Desktop\\agrosan\\Capa_entidad\\Parametros.cs",
-              "RelativeToolTip": "Capa_entidad\\Parametros.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T05:18:18.026Z"
             }
           ]
         },
@@ -507,10 +172,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

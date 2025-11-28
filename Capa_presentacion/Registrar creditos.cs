@@ -8,6 +8,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -269,7 +270,6 @@ namespace Capa_presentacion
         {
            
             txtmontop.Clear();
-            txtinteres.Clear();
             txtplazos.Clear();
             txtobserva.Clear();
           
@@ -294,39 +294,47 @@ namespace Capa_presentacion
 
         private void btBuscar_Click(object sender, EventArgs e)
         {
-            try
+            if (!Regex.IsMatch(txtcedula3.Text, @"^\d{3}-\d{6}-\d{4}[A-Z]$"))
             {
-                string cedula = txtcedula3.Text.Trim();
-
-                if (string.IsNullOrEmpty(cedula))
-                {
-                    MessageBox.Show("Por favor ingrese una cédula.");
-                    return;
-                }
-
-               
-                CN_Cliente negocioCliente = new CN_Cliente();
-                int idCliente = negocioCliente.BuscarIdClientePorCedula(cedula);
-
-                if (idCliente > 0)
-                {
-                   
-                    MessageBox.Show($"Credito Aceptado");
-
-                    Clientes.IdClienteGlobal = idCliente;
-                }
-                else
-                {
-                    MessageBox.Show("No se encontraron clientes con esa cédula.");
-                }
+                MessageBox.Show("La cedula debe de llevar el siguiente formato para que sea buscado: 000-DDMMAA-0000L","AVISO",MessageBoxButtons.OK,MessageBoxIcon.Warning);
             }
-            catch (ApplicationException ex)
+            else
             {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("No se le puede aceptar el credito al cliente " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                try
+                {
+                    string cedula = txtcedula3.Text.Trim();
+
+                    if (string.IsNullOrEmpty(cedula))
+                    {
+                        MessageBox.Show("Por favor ingrese una cédula.");
+                        return;
+                    }
+
+
+                    CN_Cliente negocioCliente = new CN_Cliente();
+                    int idCliente = negocioCliente.BuscarIdClientePorCedula(cedula);
+
+                    if (idCliente > 0)
+                    {
+
+                        MessageBox.Show($"Credito Aceptado");
+
+                        Clientes.IdClienteGlobal = idCliente;
+                    }
+                    else
+                    {
+                        MessageBox.Show("No se encontraron clientes con esa cédula.");
+                    }
+                }
+                catch (ApplicationException ex)
+                {
+                    MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("No se le puede aceptar el credito al cliente " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
 

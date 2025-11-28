@@ -13,6 +13,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Capa_datos;
 using ReaLTaiizor.Forms;
+using System.Text.RegularExpressions;
 
 namespace Capa_presentacion
 {
@@ -73,6 +74,13 @@ namespace Capa_presentacion
 
         }
 
+        private void validar_telefono (string tel){
+
+
+             const string patron_celular = @"^(?:\+505|505)?([578]\d{7})$";
+        
+        }
+
         private void Registar_clientes_Load(object sender, EventArgs e)
         {
 
@@ -117,61 +125,67 @@ namespace Capa_presentacion
                 catch (Exception ex)
                 {
                     
-                    MessageBox.Show("Error al cargar los clientes: " + ex.Message);
+                    MessageBox.Show("Error al cargar los clientes");
                 }
             }
         }
         public void BuscarPorCedula()
         {
-           
+    
             string cedula = txtcedula2.Text.Trim();
 
-          
             if (string.IsNullOrEmpty(cedula))
             {
                 MessageBox.Show("Por favor ingrese una cédula.");
                 return;
             }
 
-            string connectionString = Conexion.cadena;
-
-          
-            using (SqlConnection conn = new SqlConnection(connectionString))
+            if (!Regex.IsMatch(cedula, @"^\d{3}-\d{6}-\d{4}[A-Z]$"))
             {
-               
-                string query = "SELECT identificacion, nombre, direccion, telefono FROM clientes WHERE identificacion = @cedula";
+                MessageBox.Show("La cedula debe de llevar el siguiente formato para que sea buscado: 000-DDMMAA-0000L", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                string connectionString = Conexion.cadena;
 
-                SqlDataAdapter da = new SqlDataAdapter(query, conn);
-                da.SelectCommand.Parameters.AddWithValue("@cedula", cedula); 
-                DataTable dt = new DataTable();
-
-                try
+                using (SqlConnection conn = new SqlConnection(connectionString))
                 {
-                   
-                    da.Fill(dt);
 
-                  
-                    if (dt.Rows.Count > 0)
+                    string query = "SELECT identificacion, nombre, direccion, telefono FROM clientes WHERE identificacion = @cedula";
+
+                    SqlDataAdapter da = new SqlDataAdapter(query, conn);
+                    da.SelectCommand.Parameters.AddWithValue("@cedula", cedula);
+                    DataTable dt = new DataTable();
+
+                    try
                     {
-                      
-                        DataRow row = dt.Rows[0]; 
 
-                       
-                        txtcedula.Text = row["identificacion"].ToString();
-                        txtnombre.Text = row["nombre"].ToString();
-                        txtdireccion.Text = row["direccion"].ToString();
-                        txttelefono.Text = row["telefono"].ToString();
+                        da.Fill(dt);
+
+
+                        if (dt.Rows.Count > 0)
+                        {
+
+                            DataRow row = dt.Rows[0];
+
+
+                            txtcedula.Text = row["identificacion"].ToString();
+                            txtnombre.Text = row["nombre"].ToString();
+                            txtdireccion.Text = row["direccion"].ToString();
+                            txttelefono.Text = row["telefono"].ToString();
+                        }
+                        else
+                        {
+                            MessageBox.Show("No se encontraron clientes con esa cédula.");
+                        }
                     }
-                    else
+                    catch (Exception ex)
                     {
-                        MessageBox.Show("No se encontraron clientes con esa cédula.");
+
+                        MessageBox.Show("Error al buscar el cliente: " + ex.Message);
                     }
                 }
-                catch (Exception ex)
-                {
-                   
-                    MessageBox.Show("Error al buscar el cliente: " + ex.Message);
-                }
+
             }
         }
 
